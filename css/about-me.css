@@ -1,6 +1,8 @@
+/*
 * {
-    border: 0px solid;
+    border: 1px solid;
 }
+*/
 
 html,
 body {
@@ -34,12 +36,6 @@ body {
     text-transform: uppercase;
 }
 
-.jumbotran {
-    background: url("../img/banner_bg.png") no-repeat bottom center;
-    background-size: cover;
-    height: 300px;
-}
-
 .main {
     position: relative;
     top: 108px;
@@ -54,4 +50,55 @@ body {
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
+}
+
+.myself {
+    padding-top: 20px;
+}
+
+.intro {
+    font-size: 16px;
+}
+
+.portrait {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.portrait img {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.divider {
+    background: black;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, black, white);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black, white);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black, white);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black, white);
+    /* Standard syntax */
+    height: 5px;
+    width: 100%;
+}
+
+.flip {
+    display: block;
+}
+
+.panel {
+    background-color: rgba(1, 1, 1, 0.1);
+    border-radius: 0;
+    font-size: 18px;
+    padding-top: 1%;
+}
+
+.row {
+    padding-left: 20px;
 }

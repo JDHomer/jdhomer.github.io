@@ -42,12 +42,13 @@ body {
 
 .main {
     position: relative;
-    top: 80px;
+    top: 108px;
     text-align: center;
 }
 
 .main h1 {
-    color: mintcream;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 600;
     font-size: 70px;
     margin-top: 0;

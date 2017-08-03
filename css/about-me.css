@@ -36,22 +36,6 @@ body {
     text-transform: uppercase;
 }
 
-.main {
-    position: relative;
-    top: 108px;
-    text-align: center;
-}
-
-.main h1 {
-    color: rgb(0, 0, 0);
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: 600;
-    font-size: 70px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    text-transform: uppercase;
-}
-
 .myself {
     padding-top: 20px;
 }

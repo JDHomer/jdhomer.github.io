@@ -52,11 +52,13 @@ body {
 .portrait {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .portrait img {
+    border: 5px solid ivory;
     border-radius: 50%;
+    box-shadow: 4px 4px 10px 2px grey;
     display: block;
     height: auto;
     max-width: 100%;

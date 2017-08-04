@@ -68,7 +68,8 @@ body {
 
 .avatar img {
     box-shadow: 4px 4px 10px 2px grey;
-    border-radius: 50%;
+    border: 5px solid ivory;
+    border-radius: 100%;
     display: block;
     height: auto;
     max-width: 100%;

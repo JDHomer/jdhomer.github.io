@@ -46,7 +46,8 @@ body {
 }
 
 .intro p {
-    margin-bottom: 8px;
+    line-height: 24px;
+    padding-bottom: 4px;
 }
 
 .portrait {

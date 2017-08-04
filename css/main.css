@@ -63,10 +63,11 @@ body {
 .avatar {
     height: auto;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .avatar img {
+    box-shadow: 4px 4px 10px 2px grey;
     border-radius: 50%;
     display: block;
     height: auto;

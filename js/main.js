@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('.notice').hide();
+    $('.my-status').slideDown(2000);
 });

@@ -51,3 +51,60 @@ body {
     margin-bottom: 80px;
     text-transform: uppercase;
 }
+
+.divider {
+    background: black;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, black, white);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black, white);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black, white);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black, white);
+    /* Standard syntax */
+    height: 5px;
+    width: 100%;
+}
+
+.flip {
+    cursor: pointer;
+}
+
+.panel {
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.button {
+    background: #222C37;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#222C37, #505050);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#222C37, #505050);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#222C37, #505050);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#222C37, #505050);
+    /* Standard syntax */
+    border: none;
+    color: white;
+    margin: 4px auto;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text-body {
+    margin: 1% 2%;
+}
+
+.text-body img {
+    display: block;
+    margin: auto;
+    padding-bottom: 1%;
+    width: 80%;
+}

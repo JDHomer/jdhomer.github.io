@@ -81,7 +81,7 @@ body {
 }
 
 .flip {
-    display: block;
+    cursor: pointer;
 }
 
 .panel {

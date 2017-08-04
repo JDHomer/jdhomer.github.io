@@ -67,7 +67,9 @@ body {
     width: 100%;
 }
 
-.flip {}
+.flip {
+    cursor: pointer;
+}
 
 .panel {
     border-radius: 0;

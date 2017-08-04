@@ -93,12 +93,18 @@ body {
     font-weight: 600;
 }
 
+.fa {
+    font-size: 32px;
+}
+
 .fa-linkedin-square {
     color: rgb(0, 123, 182);
-    font-size: 32px;
 }
 
 .fa-github-square {
     color: rgb(68, 68, 68);
-    font-size: 32px;
+}
+
+.fa-steam-square {
+    color: rgb(0, 0, 0);
 }
